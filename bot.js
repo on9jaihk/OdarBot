@@ -3,8 +3,6 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const ytdl = require("ytdl-core");
 const request = require("request");
-const m3u8stream = require('m3u8stream');
-const parseTime = require('m3u8stream/dist/parse-time');
 const client = new Discord.Client();
 const prefix = botSettings.prefix;
 const DBL = require("dblapi.js");
@@ -42,7 +40,7 @@ console.log(`Bots is ready and working in ${bot.guilds.size} servers with ${bot.
     
 bot.user.setStatus('Online')
 
-bot.user.setActivity(`FUCK YOU | !help`);
+bot.user.setActivity(`FUCK YOU | on9!help`);
     
     bot.channels.get("521378814467506176").setName(`Servers: ${bot.guilds.size}/100`)
     
