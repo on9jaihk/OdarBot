@@ -34,7 +34,7 @@ module.exports.run = async (bot, message, args) => {
     .setColor("#00ff00")
     .setTitle("Support")
     .setImage("https://cdn.discordapp.com/avatars/291221132256870400/4f71fea454b62405b55f2fe0d8e7db0c.png?size=2048")
-    .setDescription("If you need help with something feel free to join the [Support Server](https://discord.gg/zvvasbc)")
+    .setDescription("If you need help with something feel free to join the [Support Server](https://discord.gg/2dnayUn)")
     .setFooter("<> means required, [] means optional")
     .setTimestamp()
     .addField("Contact", "To contact with the owner use `!contact`")
