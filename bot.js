@@ -1,16 +1,3 @@
-const { exec } = require("child_process");
-
-exec("cp -r ./node_modules/m3u8stream/dist ./node_modules/m3u8stream/lib", (error, stdout, stderr) => {
-    if (error) {
-        console.log(`error: ${error.message}`);
-        return;
-    }
-    if (stderr) {
-        console.log(`stderr: ${stderr}`);
-        return;
-    }
-    console.log(`stdout: ${stdout}`);
-});
 const botSettings = require("./botsettings.json")
 const Discord = require("discord.js");
 const fs = require("fs");
