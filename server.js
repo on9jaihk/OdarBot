@@ -1,9 +1,8 @@
-const http = require('http');
-
-const requestListener = function (req, res) {
-  res.writeHead(200);
-  res.end('Hello, World!');
-}
-
-const server = http.createServer(requestListener);
-server.listen(3000);
+const app = express()
+app.get('/', (req, res) => {
+  setTimeout(() => {
+    doSomething()
+    res.send('Hello World')
+  }, 300)
+})
+app.listen(3000)
