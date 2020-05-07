@@ -47,6 +47,7 @@
     "opusscript": "0.0.6",
     "os": "^0.1.1",
     "parse-color": "^1.0.0",
+    "parse-time": "^0.1.4",
     "random-number": "0.0.9",
     "request": "^2.88.2",
     "snekfetch": "^4.0.4",
