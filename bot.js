@@ -1,10 +1,3 @@
-var http = require('http');
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'}); 
-  res.write('YE BOI ITS WORKING');
-  res.end();
-}).listen(9000);
-
 const botSettings = require("./botsettings.json")
 const Discord = require("discord.js");
 const fs = require("fs");
