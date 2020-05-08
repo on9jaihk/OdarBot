@@ -37,7 +37,7 @@ module.exports.run = async (bot, message, args) => {
     .setDescription("If you need help with something feel free to join the [Support Server](https://discord.gg/2dnayUn)")
     .setFooter("<> means required, [] means optional")
     .setTimestamp()
-    .addField("Contact", "To contact with the owner use `!contact`")
+    .addField("Contact", "To contact with the owner use `on9!contact`")
 
     pidor.send(supEmbed)
 
