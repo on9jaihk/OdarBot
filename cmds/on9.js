@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
-    .setThumbnail(bicon)
     .addField("on9", `區區一個戇鳩仔`, inline)
     .addField("onl79", "你話咩話?", inline )
     .addField("on9jai", `洗唔洗加埋 HK 呀? XD`, inline)
